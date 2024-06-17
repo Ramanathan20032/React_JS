@@ -53,7 +53,7 @@ function MyForm(){
                 <option value="">Select</option>
                 <option value="Australia">Australia</option>
                 <option value="India">India</option>
-                <option value="USA">USA</option>
+                <option value="USA">UK</option>
             </select>
             <br />
             <label>Enter about you : </label>

@@ -86,6 +86,7 @@ function App() {
 			}
 		).then((response) => response.json())
 		.then((data) => {
+			// Toaster component - like pop-up 
 			AppToaster.show({
 				message : 'User Updated Successfully',
 				intent : 'Success',
@@ -105,7 +106,7 @@ function App() {
 			setUsers((users) => {
 				return users.filter((user) => user.id !== id)  // filter olone the data to be deleted based on the condition.
 			})
-
+			// Toaster component - like pop-up 
 			AppToaster.show({
 				message : 'User Deleted Successfully',
 				intent : 'Success',
